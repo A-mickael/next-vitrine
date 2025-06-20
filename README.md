@@ -34,6 +34,7 @@ pnpm dev
 
 ## 📁 Structure des dossiers
 
+```
 next-vitrine/
 ├── app/ # Pages et layouts (App Router)
 │ ├── layout.tsx
@@ -44,15 +45,17 @@ next-vitrine/
 │ ├── components/ui
 │ └── lib/ # Fonctions utilitaires (facultatif)
 └── tsconfig.json # Configuration TypeScript
+```
 
-### 🧪 Scripts utiles
-
+## 🧪 Scripts utiles
+```
 pnpm dev # Lancer le serveur en développement
 pnpm build # Générer le build de production
 pnpm lint # Linter le projet
 pnpm format # Formater le code avec Prettier
+```
 
-### 🧱 Composants shadcn/ui inclus
+## 🧱 Composants shadcn/ui inclus
 
 Tu peux facilement ajouter des composants avec :
 pnpm dlx shadcn@latest add [nom-du-composant]
@@ -62,7 +65,7 @@ pnpm dlx shadcn@latest add button
 pnpm dlx shadcn@latest add card
 pnpm dlx shadcn@latest add input
 
-#### ✅ Inclus dans ce starter
+## ✅ Inclus dans ce starter
 
 ✅ Configuration de base Next.js App Router
 
@@ -81,7 +84,7 @@ pnpm dlx shadcn@latest add input
 ✅ Accessibilité via Radix (utilisé par shadcn/ui)
 
 
-#### 🚧 Non inclus (par design)
+## 🚧 Non inclus (par design)
 
 ❌ Authentification
 
@@ -94,25 +97,25 @@ pnpm dlx shadcn@latest add input
 Ce starter est pensé pour les sites statiques/vitrines simples. Pour des projets plus complexes, tu peux créer un second starter avec auth, Prisma, etc.
 
 
-#### 💡 Ajouter du SEO et de la sécurité ?
+## 💡 Ajouter du SEO et de la sécurité ?
 
 Ce projet peut facilement évoluer :
 
-Métadonnées SEO (layout.tsx)
+- Métadonnées SEO (layout.tsx)
 
-En-têtes HTTP sécurisés via middleware
+- En-têtes HTTP sécurisés via middleware
 
-Balises Open Graph / Twitter
+- Balises Open Graph / Twitter
 
-Accessibilité avec les composants shadcn
+- Accessibilité avec les composants shadcn
 
 
-#### 📄 Licence
+## 📄 Licence
 
 MIT - Libre d'utilisation et de modification.
 
 
-#### 👨‍💻 Auteur
+## 👨‍💻 Auteur
 
 Développé avec ❤️ par Mika
 👉 [Portfolio bientôt disponible]
