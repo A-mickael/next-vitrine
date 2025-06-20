@@ -80,6 +80,7 @@ pnpm dlx shadcn@latest add input
 
 ✅ Accessibilité via Radix (utilisé par shadcn/ui)
 
+
 #### 🚧 Non inclus (par design)
 
 ❌ Authentification
@@ -91,6 +92,7 @@ pnpm dlx shadcn@latest add input
 ❌ CMS
 
 Ce starter est pensé pour les sites statiques/vitrines simples. Pour des projets plus complexes, tu peux créer un second starter avec auth, Prisma, etc.
+
 
 #### 💡 Ajouter du SEO et de la sécurité ?
 
@@ -104,9 +106,11 @@ Balises Open Graph / Twitter
 
 Accessibilité avec les composants shadcn
 
+
 #### 📄 Licence
 
 MIT - Libre d'utilisation et de modification.
+
 
 #### 👨‍💻 Auteur
 
