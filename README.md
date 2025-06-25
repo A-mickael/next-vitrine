@@ -20,7 +20,7 @@ Starter **Next.js + TailwindCSS + shadcn/ui** simple, léger et prêt à l'emplo
 
 ```bash
 # Cloner le projet
-git clone https://github.com/tonpseudo/next-vitrine.git
+git clone https://github.com/A-mickael/next-vitrine.git
 
 # Aller dans le dossier
 cd next-vitrine
@@ -48,6 +48,7 @@ next-vitrine/
 ```
 
 ## 🧪 Scripts utiles
+
 ```
 pnpm dev # Lancer le serveur en développement
 pnpm build # Générer le build de production
@@ -83,7 +84,6 @@ pnpm dlx shadcn@latest add input
 
 ✅ Accessibilité via Radix (utilisé par shadcn/ui)
 
-
 ## 🚧 Non inclus (par design)
 
 ❌ Authentification
@@ -95,7 +95,6 @@ pnpm dlx shadcn@latest add input
 ❌ CMS
 
 Ce starter est pensé pour les sites statiques/vitrines simples. Pour des projets plus complexes, tu peux créer un second starter avec auth, Prisma, etc.
-
 
 ## 💡 Ajouter du SEO et de la sécurité ?
 
@@ -109,11 +108,9 @@ Ce projet peut facilement évoluer :
 
 - Accessibilité avec les composants shadcn
 
-
 ## 📄 Licence
 
 MIT - Libre d'utilisation et de modification.
-
 
 ## 👨‍💻 Auteur
 
